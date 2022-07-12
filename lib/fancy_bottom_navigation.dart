@@ -108,6 +108,7 @@ class FancyBottomNavigationState extends State<FancyBottomNavigation>
   @override
   Widget build(BuildContext context) {
     return Stack(
+      clipBehavior: Clip.none,
       alignment: Alignment.bottomCenter,
       children: <Widget>[
         Container(
